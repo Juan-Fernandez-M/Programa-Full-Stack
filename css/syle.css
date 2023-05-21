@@ -1,0 +1,13 @@
+#Productos{
+    background-color: rgba(128, 53, 53, 0.747);
+    padding: 20px;
+    margin: auto
+    ;
+}
+.caja {
+    background-color: rgb(117, 116, 116);
+    border: 2px solid rgba(22, 21, 21, 0.205);
+    padding: 10px;
+    margin: 50px;
+  }
+ 
