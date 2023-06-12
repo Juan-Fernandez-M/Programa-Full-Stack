@@ -1,13 +1,119 @@
 #Productos{
-    background-color: rgba(128, 53, 53, 0.747);
-    padding: 20px;
-    margin: auto
-    ;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 5px;
+    font-style: inherit;
+    align-items: center;
 }
 .caja {
     background-color: rgb(117, 116, 116);
     border: 2px solid rgba(22, 21, 21, 0.205);
     padding: 10px;
     margin: 50px;
+    justify-content: space-between;
   }
- 
+.Logo{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 11%;
+}
+.Textos{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: column;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 10px;
+    z-index: 100;
+    height: 110px;
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-column{
+    flex-basis: 150%;
+}
+.lista{
+     font-style: italic;
+     display: flex;
+     justify-content: center;
+     text-align: center;
+     border: 5px solid rgba(22, 21, 21, 0.205);
+    padding: 10px;
+    margin: 40px;
+ }
+.imagenport{
+    display: flex;
+    object-fit: cover;
+    padding: 20px;
+}
+.inicio{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: end;
+}
+.inicio > a{
+    color: rgb(31, 30, 30);
+    text-decoration: none;
+    font-weight: 300;
+    margin-right: 10px;
+}
+.inicio > a:hover{
+    text-decoration: underline;
+}
+h1{
+    font-style: italic;
+    text-align: center;
+    color: rgb(20, 20, 20);
+}
+form{
+    width: 450px;
+}
+label{
+    display:block;
+    color: rgb(19, 19, 19);
+}
+.contenedor{
+    padding: 30px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.cora{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.lista{
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+.boxes{
+    justify-content: center;
+    text-align:center;
+    border: 5px solid rgba(22, 21, 21, 0.205);
+    padding: 10px;
+    margin: 50px;
+}
+ul{
+    text-align: center;
+}
+.boxes2{
+    justify-content: center;
+    text-align:center;
+}
+.boxes3{
+    justify-content: center;
+    text-align:center;
+    border: 5px solid rgba(22, 21, 21, 0.205);
+    padding: 10px;
+    margin: 50px;
+}
